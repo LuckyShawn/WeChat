@@ -1,11 +1,33 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/shawn/shawn"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "的一个demo",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "my demo",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "home page"
+      },
+      {
+        "pagePath": "pages/shawn/shawn",
+        "text": "shawn"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
 }

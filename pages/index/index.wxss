@@ -1,1 +1,4 @@
-/* pages/index/index.wxss */
+@import "out.wxss";
+.txt-css{
+  margin-top: 100px;
+}
