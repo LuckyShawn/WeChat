@@ -1,0 +1,28 @@
+<!--index.wxml-->
+ <!-- scroll-top="150" -->
+<scroll-view scroll-y="true" style='height:300rpx' bindscrolltoupper="scrolltoupper" bindscrolltolower="scrolltolower" upper-threshold="0" lower-threshold="0"
+enable-back-to-top="true" scroll-with-animation="true"
+bindscroll="scroll"
+scroll-into-view="c">
+
+  <view id="a" class='a size'>a</view>
+  <view id="b" class='b size'>b</view>
+  <view id="c" class='c size'>c</view>
+  <view id="d" class='d size'>d</view>
+  <view id="e" class='e size'>e</view>
+
+</scroll-view>
+
+
+<scroll-view class='container' scroll-x="true" style='margin-top:250rpx' scroll-left="200">
+
+  <view id="a" class='a size'>a</view>
+  <view id="b" class='b size'>b</view>
+  <view id="c" class='c size'>c</view>
+  <view id="d" class='d size'>d</view>
+  <view id="e" class='e size'>e</view>
+
+</scroll-view>
+
+
+

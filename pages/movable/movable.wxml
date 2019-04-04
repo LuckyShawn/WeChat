@@ -1,0 +1,8 @@
+<movable-area class="father-size">
+<!-- disabled="false" 是否禁用 有bug？？ -->
+  <movable-view class="a size" direction="all" inertia="true" out-of-bounds="true" x="50" y="100" damping="100" friction="100" scale="true" bindchange="doChange"
+  bindscale="doScale">
+
+  </movable-view>
+
+</movable-area>

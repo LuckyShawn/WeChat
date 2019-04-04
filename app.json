@@ -1,5 +1,11 @@
 {
   "pages":[
+    "pages/basic/basic",
+    "pages/movable/movable",
+    "pages/swiper/swiper",
+    "pages/scroll/scroll",
+    "pages/view/view",
+    "pages/flex/flex",
     "pages/include/include",
     "pages/index/index",
     "pages/shawn/shawn"

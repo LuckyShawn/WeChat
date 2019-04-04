@@ -1,0 +1,35 @@
+<icon type="success" size="66" color="blue"></icon>
+<icon type="success_no_circle" size="66"></icon>
+<icon type="info" size="66" />
+<icon type="warn" size="66" />
+<icon type="waiting" size="66" />
+<icon type="cancel" size="66" />
+<icon type="download" size="66" />
+<icon type="search" size="66" />
+<icon type="clear" size="66" />
+
+
+<view> 
+<view>这是view内容，长按不能选中</view>
+<text selectable='true'>这是一段text文本，长按可以选中</text>
+</view>
+
+<view> 
+<text space="true">空格     空格</text>
+</view>
+
+<view> 
+<text decode='true'>&nbsp; &lt; &gt; </text>
+</view>
+
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+
+
+<progress percent="20" show-info />
+<progress percent="40" stroke-width="12" />
+<progress percent="60" color="pink" />
+<progress percent="80" active />
+
+<progress percent="{{myPercent}}" active-mode='forwards' active stroke-width="30" show-info color="red" />
+<button bindtap='addPercent'>Click +</button>
+<button bindtap='subtractPercent'>Click -</button>

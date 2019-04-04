@@ -1,0 +1,62 @@
+.container{
+  display: flex;
+  /* row:默认 从左到右排序 */
+  /* row-reverse:从右到左排序 */
+  /* column：从上到下排序*/
+  /* column-reverse:从下往上排序  */
+  /* flex-direction: column-reverse; */
+
+  /* nowrap:默认不换行 */
+  /* wrap:换行 */
+  /* flex-wrap: wrap-reverse; */
+
+  /* flex-start: 默认左对齐 */
+  /* flex-end默认右对齐 */
+  /* center：居中对齐 */
+  /* space-around：在成员周围包裹空白 */
+   /* space-between：在成员之间留空白 */
+  /* justify-content: space-between; */
+}
+
+.father-size{
+  width: 100%;
+  height: 650rpx;
+  background-color: grey;
+}
+
+.size{
+  width: 250rpx;
+  height: 250rpx;
+}
+
+.a{
+  background-color: red;
+  /* order: 通过数字对flex容器内部的成员设置显示顺序 */
+  order:1;
+  /* flex：配置每个成员元素所占行级的显示比例 */
+  flex: 3;
+}
+
+.b{
+  background-color: rgb(0, 255, 200);
+  order:2;
+  flex: 2
+}
+
+.c{
+  background-color: yellow;
+  order:5;
+  flex: 1;
+}
+
+.d{
+  background-color: orange;
+  order:3;
+  flex: 1;
+}
+
+.e{
+  background-color: rgb(0, 255, 42);
+  order:4;
+  flex: 1;
+}
