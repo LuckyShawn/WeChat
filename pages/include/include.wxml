@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<include src="../include/header.wxml"></include>
+<view class="container">
+  这是shawn的页面
+</view>
+<include src="../include/footer.wxml"></include>

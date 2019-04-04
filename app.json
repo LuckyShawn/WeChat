@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/include/include",
     "pages/index/index",
     "pages/shawn/shawn"
   ],
