@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/form/checkbox/checkbox",
+    "pages/form/button/button",
     "pages/basic/basic",
     "pages/movable/movable",
     "pages/swiper/swiper",

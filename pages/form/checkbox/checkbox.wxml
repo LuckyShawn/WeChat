@@ -1,0 +1,13 @@
+<checkbox-group bindchange="changed">
+    <checkbox value='basketball'>篮球</checkbox>
+     <checkbox value='football' disabled='{{true}}'>足球</checkbox>
+      <checkbox value='swimming' checked='true' color='red'>游泳</checkbox>
+</checkbox-group>
+
+<checkbox-group>
+<label wx:for="{{array}}">
+<checkbox id="{{item.id}}" value='{{item.name}}' disabled='{{item.disabled}}' checked='{{item.checked}}' color='{{item.color}}'>{{item.value}}</checkbox>
+</label>
+</checkbox-group>
+
+<label for="1001">点击选中篮球</label>

@@ -1,0 +1,11 @@
+<button >按钮</button>
+<button size='mini' type='default'>按钮</button>
+<button size='mini' type='primary'>按钮</button>
+<button size='mini' type="warn">按钮</button>
+
+
+<button size='mini' type="warn" plain='true'>按钮</button>
+
+<button size='mini' type="warn" plain='true' disabled='true'>按钮</button>
+
+<button size='mini' loading='true'>按钮</button>
