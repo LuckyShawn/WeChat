@@ -1,0 +1,15 @@
+<input value="text" type="text" bindinput='inputEvent' bindfocus='focusEvent'
+bindblur='blurEvent'
+bindconfirm='confirmEvent'></input>
+<input value="number" type="number"></input>
+<input value="idcard" type="idcard"></input>
+<input value="digit" type="digit"></input>
+
+
+密码框：<input password='true' focus='true'></input>
+
+用户名：<input placeholder='请输入' placeholder-style='color:red'></input>
+
+用户名：<input placeholder='请输入' placeholder-class='placeholder'></input>
+
+<input value="text" type="text" maxlength='10'></input>
