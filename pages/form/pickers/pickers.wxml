@@ -1,0 +1,24 @@
+<view>单列选择器</view>
+<picker mode="selector" range="{{array}}">
+请选择我
+</picker>
+
+
+<picker mode="selector" range="{{arrObj}}" range-key='name' bindchange='changeMe'
+bindcancel="cancelMe" >
+<view>
+  {{showme}}
+</view>
+</picker>
+
+<view style='margin-top:100rpx;'>多列选择器</view>
+
+<picker mode="multiSelector" range="{{arrayMuti}}">
+请选择我
+</picker>
+<picker mode="multiSelector" range="{{arrObjMuti}}" range-key='name' bindchange='changemeMulti'
+bindcolumnchange="columnchange" >
+<view>
+  {{showme}}
+</view>
+</picker>

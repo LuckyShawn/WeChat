@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/form/pickers/pickers",
     "pages/input/input",
     "pages/form/checkbox/checkbox",
     "pages/form/button/button",
