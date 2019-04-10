@@ -1,0 +1,26 @@
+<radio-group>
+
+  <radio checked='{{true}}'>
+    中国
+  </radio>
+  <radio checked='{{false}}' disabled='{{true}}'>
+    美国
+  </radio>
+  <radio checked='{{false}}' color='red'>
+    德国
+  </radio>
+</radio-group>
+
+
+<radio-group bindchange="changeMe">
+  <block wx:for="{{array}}">
+    <radio checked='{{true}}' value='{{item.name}}'>
+      {{item.value}}
+    </radio>
+  </block>
+</radio-group>
+
+
+<view>
+  {{myValue}}
+</view>

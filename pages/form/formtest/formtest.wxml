@@ -1,0 +1,43 @@
+<form bindsubmit='submitData'>
+
+  <input name="username" placeholder='请输入用户名'></input>
+  <input name="password" password='{{true}}' placeholder='请输入密码'></input>
+
+<checkbox-group name='skill' style='margin-top:25rpx;'>请选择技能
+<view wx:for="{{skills}}">
+  <checkbox id='{{item.id}}' value='{{item.name}}' >{{item.value}}</checkbox>
+</view>
+</checkbox-group>
+
+<picker name="birthday" mode="date" start="2018-03-01" end="2018-06-25" bindchange="changeDate" style='margin-top:25rpx;'>
+        <view>{{dateLable}}</view>
+</picker>
+
+<picker name="city" mode="region" bindchange="changeCity" style='margin-top:25rpx;'>
+<view>{{cityLable}}</view>
+</picker>
+
+
+ <radio-group name="sex" bindchange="changeme" style='margin-top:25rpx;'>
+        <radio value='男' checked='{{true}}'>男</radio>
+        <radio value='女' style='margin-left:25rpx;'>女</radio>
+    </radio-group>
+
+    <view style='margin-top:25rpx;'>
+        请选择年龄:
+        <slider name="age" value='18' min="18" max="65" show-value="{{true}}"></slider>
+    </view>
+
+    <switch name="isOk" checked="{{true}}" style='margin-top:25rpx;'>资料保密</switch>
+
+    <textarea name="remark" placeholder="备注" style='margin-top:25rpx;border:1px;border-style:solid;border-color:gray;width:748rpx;height:150rpx;'>
+    
+    </textarea>
+
+    <view style='margin-top:25rpx;'>
+        <button size='mini' form-type='submit' type="primary">提交</button>
+        <button size='mini' form-type='reset' type="warn" style='margin-left:15rpx;'>重置</button>
+    </view>
+
+
+</form>

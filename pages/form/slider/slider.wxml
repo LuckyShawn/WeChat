@@ -1,0 +1,7 @@
+<!-- bindchange='myChange' -->
+<slider min="10" max="90" 
+show-value='true' activeColor="red"
+backgroundColor='yellow' block-color='pink'
+ bindchanging='myChange1'></slider>
+
+<view style="background-color:green;width:100%;height:{{myHeight}}"></view>

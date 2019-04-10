@@ -1,0 +1,5 @@
+
+
+<switch checked='true' color='red' bindchange='changeMe'>开关</switch>
+
+<view style="background-color:{{color}};width:100%;height:700rpx"></view>

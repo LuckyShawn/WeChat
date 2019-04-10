@@ -1,0 +1,15 @@
+<picker-view style='width:100%;height:250px;' bindchange='changeMe'>
+  <picker-view-column>
+    <view  wx:for="{{year}}">{{item}}</view>
+  </picker-view-column>
+   <picker-view-column>
+    <view  wx:for="{{month}}">{{item}}</view>
+  </picker-view-column>
+   <picker-view-column>
+    <view  wx:for="{{day}}">{{item}}</view>
+  </picker-view-column>
+</picker-view>
+
+<view>
+{{myValue}}
+</view>

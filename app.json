@@ -1,6 +1,10 @@
 {
   "pages":[
-    "pages/form/pickers/pickers",
+    "pages/form/formtest/formtest",
+    "pages/form/switch/switch",
+    "pages/form/slider/slider",
+    "pages/form/radio/radio","pages/form/pickerview/pickerview",
+    "pages/form/picker/picker",
     "pages/input/input",
     "pages/form/checkbox/checkbox",
     "pages/form/button/button",
