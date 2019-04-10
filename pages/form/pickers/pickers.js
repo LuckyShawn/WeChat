@@ -30,9 +30,10 @@ Page({
         { id: 1004, name: "tom" },
         { id: 1005, name: "tim" }
       ]
-    ]
-
-
+    ],
+    showTime: "请选择时间",
+    showDate: "请选择日期",
+    showRegion: "请选择地区"
   },
   changeMe: function(e){
     var index = e.detail.value;
@@ -59,5 +60,26 @@ Page({
       var name = arrObjMuti[i][indexTmp].name;
       console.log(id+ "  "+ name);
     }
+  },
+  timeChange: function(e){
+    console.log('picker发送选择改变，携带值为', e.detail.value);
+    this.setData({
+      showTime: e.detail.value
+    });
+  },
+  dateChange: function(e){
+    console.log('picker发送选择改变，携带值为', e.detail.value);
+    this.setData({
+      showDate: e.detail.value
+    });
+  },
+  regionChange: function(e){
+    console.log('picker发送选择改变，携带值为', e.detail.value);  //地区名
+    console.log('picker发送选择改变，携带值为', e.detail.code);  //统计用区划代码
+    console.log('picker发送选择改变，携带值为', e.detail.postcode);//邮政编码
+    this.setData({
+      showRegion: e.detail.value
+    });
   }
+
 })

@@ -1,24 +1,39 @@
 <view>单列选择器</view>
 <picker mode="selector" range="{{array}}">
-请选择我
+  请选择我
 </picker>
 
 
-<picker mode="selector" range="{{arrObj}}" range-key='name' bindchange='changeMe'
-bindcancel="cancelMe" >
-<view>
-  {{showme}}
-</view>
+<picker mode="selector" range="{{arrObj}}" range-key='name' bindchange='changeMe' bindcancel="cancelMe">
+  <view>
+    {{showme}}
+  </view>
 </picker>
 
 <view style='margin-top:100rpx;'>多列选择器</view>
 
 <picker mode="multiSelector" range="{{arrayMuti}}">
-请选择我
+  请选择我
 </picker>
-<picker mode="multiSelector" range="{{arrObjMuti}}" range-key='name' bindchange='changemeMulti'
-bindcolumnchange="columnchange" >
-<view>
-  {{showme}}
-</view>
+<picker mode="multiSelector" range="{{arrObjMuti}}" range-key='name' bindchange='changemeMulti' bindcolumnchange="columnchange">
+  <view>
+    {{showme}}
+  </view>
+</picker>
+
+<view style='margin-top:100rpx;'>时间,日期,省市区选择器</view>
+<picker mode="time" start='07:01' end='20:01' bindchange='timeChange'>
+  <view>
+    {{showTime}}
+  </view>
+</picker>
+<picker mode='date' start="2018-09-01" end="2019-09-01" bindchange='dateChange'>
+  <view>
+    {{showDate}}
+  </view>
+</picker>
+<picker mode='region' bindchange='regionChange'>
+  <view>
+    {{showRegion}}
+  </view>
 </picker>
