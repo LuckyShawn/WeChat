@@ -1,0 +1,4 @@
+<view>这是page3</view>
+
+
+<navigator open-type='navigateBack' delta="2">返回</navigator>

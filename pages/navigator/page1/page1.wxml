@@ -1,0 +1,5 @@
+<view>这是page1</view>
+
+ <!-- open-type='redirect' -->
+<navigator url='../page2/page2?id=1001&name=shawn'>跳转到第2页</navigator>
+<navigator url='../page3/page3'>跳转到第3页</navigator>

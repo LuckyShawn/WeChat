@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<button bindtap='clickme'>点击</button>
+    

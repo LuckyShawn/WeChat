@@ -1,9 +1,15 @@
 {
-  "pages":[
+  "pages": [
+    "pages/requestAPI/requestAPI",
+    "pages/images/images",
+    "pages/navigator/page1/page1",
+    "pages/navigator/page2/page2",
+    "pages/navigator/page3/page3",
     "pages/form/formtest/formtest",
     "pages/form/switch/switch",
     "pages/form/slider/slider",
-    "pages/form/radio/radio","pages/form/pickerview/pickerview",
+    "pages/form/radio/radio",
+    "pages/form/pickerview/pickerview",
     "pages/form/picker/picker",
     "pages/input/input",
     "pages/form/checkbox/checkbox",
@@ -18,7 +24,7 @@
     "pages/index/index",
     "pages/shawn/shawn"
   ],
-  "window":{
+  "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "my demo",
@@ -44,5 +50,6 @@
   "debug": true,
   "navigateToMiniProgramAppIdList": [
     "wxe5f52902cf4de896"
-  ]
+  ],
+  "sitemapLocation": "sitemap.json"
 }

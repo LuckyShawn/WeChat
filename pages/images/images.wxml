@@ -1,0 +1,5 @@
+<!-- <image src="https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=2018315"></image> -->
+
+<block wx:for="{{array}}">
+<image src="{{src}}" mode='{{item.mode}}' style='width:250px;height:250px;' lazy-load="{{true}}" bindload="load"></image>
+</block>

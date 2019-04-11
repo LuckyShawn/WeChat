@@ -1,0 +1,5 @@
+<view>这是page2</view>
+
+<navigator url='../page3/page3'>跳转到第3页</navigator>
+
+<navigator open-type='navigateBack'>返回</navigator>
